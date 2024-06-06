@@ -1,0 +1,22 @@
+@use '../../Utils/Colors.scss';
+
+.download-csv {
+    margin: auto;
+    .download-csv-button {
+      background-color: Colors.$TextUI-Green;
+      color: Colors.$White;
+      padding: 16px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+  }
+  .custom-table {
+    table-layout: auto;
+    .sortable {
+      cursor: pointer;
+    }
+    .sortable:hover {
+      opacity: 0.8;
+    }
+  }
+  
